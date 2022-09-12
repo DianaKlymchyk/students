@@ -9,7 +9,7 @@ function StudentsTable( {students} ) {
                 {students.map((item, index, arr) => {
                     return (
                       <tr>
-                          <td>{item.id + 1} )</td>
+                          <td>{item.id + 1}</td>
                           <td>Name: {item.name}</td>
                           <td>Age: {item.age}</td>
                           <td>IsMarried: {item.isMarried ? '+' : '-'}</td>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACtB,MAAM,EAAE,IAAI;CAOb;;AARD,AAGE,uBAHqB,CAGrB,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC;EACV,MAAM,EAAE,gBAAgB;EACxB,UAAU,EAAE,iBAAiB;CAE9B",
+    "sources": [
+        "../src/components/StudentsTable/StudentsTable.scss"
+    ],
+    "names": [],
+    "file": "StudentsTable.css"
+}

@@ -1,0 +1,10 @@
+.students-table-wrapper {
+  margin: 15px;
+}
+
+.students-table-wrapper table tr td {
+  border: 1px solid silver;
+  -webkit-box-shadow: 2px 4px 6px black;
+          box-shadow: 2px 4px 6px black;
+}
+/*# sourceMappingURL=StudentsTable.css.map */
