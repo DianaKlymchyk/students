@@ -5,14 +5,19 @@ function StudentsTable( {students} ) {
         <div className="students-table-wrapper">
             <table>
               <tbody>
-
-                {students.map((item, index, arr) => {
+              <tr>
+                  <td style={{visibility: 'hidden'}}></td>
+                  <td>Name</td>
+                  <td>Age</td>
+                  <td>Married</td>
+              </tr>
+                {students.map((item) => {
                     return (
-                      <tr>
-                          <td>{item.id + 1} )</td>
-                          <td>Name: {item.name}</td>
-                          <td>Age: {item.age}</td>
-                          <td>IsMarried: {item.isMarried ? '+' : '-'}</td>
+                      <tr key={item.id}>
+                          <td>{item.id + 1}</td>
+                          <td>{item.name}</td>
+                          <td>{item.age}</td>
+                          <td>{item.isMarried ? 'YES' : 'NO'}</td>
                       </tr>
                     )
                 })}
