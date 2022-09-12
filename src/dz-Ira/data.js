@@ -10,7 +10,7 @@ export const Students = [
     name: 'Peter Ivanov',
     age: 30,
     isMarried: true,
-  }
+  }, // Была добавлена запятая ибо не последний объект в массиве
   {
     id: 2,
     name: 'Ira Galtsova',
