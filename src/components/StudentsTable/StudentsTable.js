@@ -13,6 +13,7 @@ function StudentsTable( {students} ) {
                           <td>Name: {item?.name}</td>
                           <td>Age: {item?.age}</td>
                           <td>IsMarried: {item?.isMarried ? '+' : '-'}</td>
+                          <td>Work: {item?.work ?? '?'}</td>
                       </tr>
                     )
                 })}
