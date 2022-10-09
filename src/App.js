@@ -8,6 +8,7 @@ function App() {
     <div className="app-wrapper">
       <h2>Students list</h2>
       <TableInfo />
+      <h4>The best students</h4>
       <StudentsTable students={Students} />
     </div>
   );
